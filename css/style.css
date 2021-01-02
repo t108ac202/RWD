@@ -1,0 +1,292 @@
+html{
+    /* display: flex;
+    justify-content: center;
+
+    padding: 0; */
+    margin: auto;
+    max-width: 1920px;
+}
+
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo_img{
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    left: 50%; */
+
+    width: 300px;
+
+    padding-left: 30px;
+
+    cursor: pointer;
+}
+
+.nav{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding-right: 350px;
+    margin-top: -140px;
+    margin-bottom: 100px;
+
+    height: 30px;
+}
+
+.nav_i{
+    cursor: pointer;
+}
+
+.nav_i:hover{
+    opacity: 80%;
+}
+
+.nav_f{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.nav_f:hover{
+    opacity: 80%;
+}
+
+.header_line{
+    width: 1440px;
+    height: 0.15em;
+
+    margin: auto;
+
+    background-color: #464646;
+}
+
+.nav_true{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 10px;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.nav_img_e{
+    cursor: pointer;
+}
+
+.nav_img_e:hover{
+    opacity: 80%;
+}
+
+.nav_img_m{
+    cursor: pointer;
+}
+
+.nav_img_m:hover{
+    opacity: 80%;
+}
+
+.nav_img_p{
+    cursor: pointer;
+}
+
+.nav_img_p:hover{
+    opacity: 80%;
+}
+
+.nav_img_c{
+    cursor: pointer;
+}
+
+.nav_img_c:hover{
+    opacity: 80%;
+}
+
+.main{
+    
+    padding-bottom: 50px;
+    /* display: flex;
+    flex-direction: column; */
+
+    width: 1440px;
+    height: auto;
+}
+
+.main_jpg{
+    width: 1920px;
+    height: 1200px;
+
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_img{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+
+    margin: auto;
+    padding-top: 600px;
+    padding-left: 30px;
+}
+
+.main_select_l{
+    padding-right: 1800px;
+    cursor: pointer;
+}
+
+.main_select_l:hover{
+  opacity: 80%;
+}
+
+.main_select_r{
+    cursor: pointer;
+}
+
+.main_select_r:hover{
+    opacity: 80%;
+  }
+
+.main_pic{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_performer_a{
+    font-style: bold;
+    font-size: 38pt;
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+    position: absolute;
+
+    margin-top: 380px;
+}
+
+.main_performer_b{
+    width: 360px;
+
+    position: absolute;
+
+    margin-top: 380px;
+
+    cursor: pointer;
+}
+
+.main_performer_b:hover{
+    opacity: 80%;
+}
+
+.main_img9{
+    width: 1920px;
+    height: 1253px;
+
+    margin: auto;
+    padding: 40px 0px;
+}
+
+/* .main_select_l:hover{
+    background-color: #464646;
+} */
+
+.main_w1{
+    width: 450px;
+    height: 93px;
+
+    margin: auto;
+    padding: 200px 0px;
+
+    display: flex;
+}
+
+.main_w2{
+    width: 500px;
+    height: 164px;
+
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+footer{
+    padding-top: 50px;
+}
+
+.footer_p{
+    width: 110px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    padding-left: 904px;
+    padding-top: 10px;
+}
+
+.footer_bg{
+    width: 1920px;
+    height: 53px;
+
+    background-color: #333333;
+}
+
+/* @media(min-width:720px){
+    .main-area{
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo_img{
+        width: 18em;
+    }
+
+    .nav{
+        width: auto;
+        
+    }
+}
+
+@media(min-width:480px){
+    .main-area{
+        padding-right: 0;
+    }
+
+    .logo_img{
+        width: 14em;
+    }
+} */
